@@ -1,0 +1,2 @@
+21:20:03 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Start method searchArticleTest with parameters: []
+21:20:24 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Stopped method searchArticleTest
