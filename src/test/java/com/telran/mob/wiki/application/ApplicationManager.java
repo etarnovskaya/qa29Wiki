@@ -1,11 +1,16 @@
 package com.telran.mob.wiki.application;
 
 
+import com.google.common.io.Files;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
@@ -51,6 +56,17 @@ public class ApplicationManager {
     }
 
 
+    public void takeScreenShot(String pathToFile){
+        File temp = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+        File screenshot = new File(pathToFile);
+        try{
+            Files.copy(temp,screenshot);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
+    }
    // public String getAppVersion(){
        // return driver.findElement(By.id("app_version_res")).getText();
    // }

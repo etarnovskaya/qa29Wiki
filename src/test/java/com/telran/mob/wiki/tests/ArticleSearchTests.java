@@ -11,8 +11,8 @@ public class ArticleSearchTests extends TestBase{
         app.article().search(new Article().setTitle(title));
         app.article().closeKeyBoard();
         String firstArticleTitle = app.article().getTitleOfFirst();
-
+app.takeScreenShot("src/screenshot-"+ System.currentTimeMillis());
         //check Appium article present
-        Assert.assertEquals(firstArticleTitle,title);
+        Assert.assertEquals(firstArticleTitle,title + "m");
     }
 }
