@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SanityTests" verbose="1" >
+    <test name="sanity" >
+        <classes>
+            <class name="com.telran.mob.wiki.tests.LaunchAppTest" />
+            <class name="com.telran.mob.wiki.tests.ArticleSearchTests">
+                <methods>
+                    <include name="searchArticleTest"/>
+                    <include name="addTArticleToFavorits"/>
+                    <include name="deleteFromFavorites"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

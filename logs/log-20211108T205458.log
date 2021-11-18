@@ -1,3 +1,0 @@
-20:55:36 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Start method launchApp with parameters: []
-20:55:36 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - app launched
-20:55:36 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Stopped method launchApp

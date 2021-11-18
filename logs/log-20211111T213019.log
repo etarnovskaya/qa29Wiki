@@ -1,3 +1,0 @@
-21:30:45 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Start method searchArticleTest with parameters: []
-21:31:06 [Test worker] ERROR com.telran.mob.wiki.tests.Listener - Test failed
-21:31:07 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Stopped method searchArticleTest

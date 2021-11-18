@@ -27,8 +27,8 @@ public class ApplicationManager {
       //capabilities
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platformName", "Android");
-        caps.setCapability("deviceName", "andr_10");
-        caps.setCapability("platformVersion", "10");
+        caps.setCapability("deviceName", "qa25_mob");
+        caps.setCapability("platformVersion", "8.0");
         caps.setCapability("automationName", "Appium");
         caps.setCapability("appPackage", "org.wikipedia");
         caps.setCapability("appActivity", ".main.MainActivity");

@@ -1,3 +1,0 @@
-21:59:20 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Start method testApp with parameters: []
-21:59:21 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - app is running, vresion is 0.0.3
-21:59:21 [Test worker] INFO  com.telran.mob.wiki.tests.TestBase - Stopped method testApp
